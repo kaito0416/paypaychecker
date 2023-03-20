@@ -1,7 +1,6 @@
 import paybase,time
 print("PayPayLinkChecker\nDeveloped by Kodai.")
-txt_name=input("チェックするリンクが入ったtxtファイルを指定してください。\n拡張子まで入力してください。"+"\n>>")
-try:
+txt_name=https://waki285.github.io/paypaygen/try:
   f=open(txt_name,"r")
   paylink=f.read().split('\n')
   paylink=([i for i in paylink if i != ""])
